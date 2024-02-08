@@ -28,6 +28,11 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .header-nav{
     display: flex;
     gap: 2em;
@@ -66,13 +71,18 @@ h1{
 
 }
 
-button{
+.header-signup{
     width: 80px;
     border-radius: 12px ;
     color: red ;
     font-weight: 800;
     padding: 5px;
 }
+
+.signup{
+    color: red;
+}
+
 
 /*Main section*/
 
@@ -95,6 +105,11 @@ h2{
     gap: 4em;
     justify-content: center ;
     align-items: center;
+}
+
+.photo-text{
+    text-align: center;
+
 }
 
 .container-2{
@@ -120,7 +135,7 @@ h2{
     align-self: flex-end;
     font-size: 20px;
     font-weight: 800;
-    margin-right: 80px;
+    margin-right: 300px;
 
 }
 
@@ -131,26 +146,30 @@ h2{
    justify-content: center;
    align-items: center;
    margin-bottom: 100px;
+   background-color: red;
+   width: 1500px ;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 .cta-box{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
-    width: 1450px; 
+    width: 1500px; 
     padding: 20px;
 }
 
 h3{
-    text-align:left;
-    margin-left: 50px;
+    
     font-size: 25px;
+    margin-bottom: 0;
+    
 }
 
 .call-to-action{
     display: flex;
-    justify-content: center;
-    gap: 20em;
-    margin-right: 530px;
+    justify-content: flex-start;
     font-size: 20px;
    
 }
@@ -161,7 +180,12 @@ h3{
     font-size: 20px;
     width: 100px; 
     text-align: center;
-    
+    margin-right: 200px;  
+    border-radius: 12px;
+}
+
+.footer-signup a {
+    color:red ;
 }
 
 /*footer*/
